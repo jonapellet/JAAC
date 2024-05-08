@@ -1,0 +1,316 @@
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+% Resume in Latex
+% Author : Shubham Mazumder
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{soul}
+\input{glyphtounicode}
+\usepackage[margin=0.5in]{geometry}
+
+%----------FONT OPTIONS----------
+% Sans-serif Fonts
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault,light]{inter}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage{roboto}
+% \usepackage[sfdefault,medium]{InriaSans}
+\usepackage[default]{sourcesanspro}
+
+% Serif Fonts
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% -------------------------------------
+%----------PAGE SETUP------------------
+% -------------------------------------
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+% \addtolength{\oddsidemargin}{0.5pt}
+% \addtolength{\evensidemargin}{0.5pt}
+% \addtolength{\textwidth}{0.9in}
+% \addtolength{\topmargin}{-0.6in}
+% \addtolength{\textheight}{1.6in}
+
+% \addtolength{\oddsidemargin}{-.875in}
+% \addtolength{\evensidemargin}{-.875in}
+% \addtolength{\textwidth}{1.75in}
+% \addtolength{\topmargin}{-.875in}
+% \addtolength{\textheight}{1.75in}
+
+% URL style
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+% ----------- Definitions -----------------------
+\def\spaceforrole{ }
+\definecolor{lightyellow}{cmyk}{0.00, 0.05, 0.20, 0.00} % Highlights
+\sethlcolor{lightyellow} % Highlights
+
+%--------------- Custom commands -----------------------
+
+\newcommand{\sectionspace}{
+\vspace{-20pt}
+}
+
+\newcommand{\subheadingtitlevspace}{
+\vspace{-3pt}
+}
+
+
+% Resume Item
+\newcommand{\resumeItem}[1]{
+  \item{
+    {#1 \vspace{-4pt}}
+  }
+}
+
+% Titles
+\newcommand{\titleItem}[1]{
+  % \textsl{\textbf{#1}}
+  \textbf{#1}
+}
+
+
+% Highlighting
+\newcommand{\highlight}[1]{
+  \textsl{\textbf{#1}}
+  % \hl{\textsl{\textbf{#1}}}
+  % \textbf{#1}
+  % \textsl{\hl{#1}}
+}
+
+% Resume Subheading
+\newcommand{\resumeSubheading}[4]{
+  \item
+     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}l@{}l}     
+      {#1} & \titleItem{#3} $|$ {#2} & \textit{#4}\\
+    \end{tabular*}\vspace{-10pt}
+}
+
+% \newcommand{\resumeSubheading}[4]{
+%   \item
+%     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+%       \textbf{#1} & #2 \\
+%       \textit{#3} & \textit{#4} \\
+%     \end{tabular*}\vspace{-8pt}
+% }
+
+
+
+% Resume Sub-sub heading
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{#1} & \textit{#2} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+% Resume Project Heading
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & \textit{ #2} \\
+    \end{tabular*}\vspace{-9pt}
+}
+
+%Resume Subheading List
+\newcommand{\resumeSubHeadingListStart}{\subheadingtitlevspace\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+%Resume Item List
+\newcommand{\resumeItemListStart}{
+% \vspace{-1pt}
+\begin{itemize}}
+\newcommand{\resumeItemListEnd}{
+% \vspace{-6pt}
+\end{itemize}\vspace{-8pt}}
+
+%-------------------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%-------------------------------------------------------
+
+\begin{document}
+
+% -------------------------------------
+%----------HEADING---------------------
+% -------------------------------------
+
+\begin{flushleft}
+    \textbf{\large Your Name} \\    
+    \textit{City, State, Country} $|$
+    \textit{+1 (xxx) xxx-xxxx} $|$  
+    \href{https://example.com}{{\textit{@website}}} $|$
+    \href{mailto:you@example.com}{{\textit{@you@example.com}}} $|$
+    \href{https://github.com/yourgithubhandle}{{\textit{@github}}}
+    \vspace{-8pt}
+\end{flushleft}
+
+% -------------------------------------
+%---------- PROFESSIONAL SUMMARY ------
+% -------------------------------------
+
+\section{SUMMARY}
+\vspace{-3pt}
+\begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+      ((* summary *)) \\      
+    }}
+ \end{itemize}
+ \sectionspace
+
+
+% -------------------------------------
+%----------HEADING---------------------
+% -------------------------------------
+
+\section{CERTIFICATIONS}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\titleItem{AWS Certified Security - Specialty} \emph{$|$ Amazon Web Services}}{2019 - 2022}
+\resumeProjectHeading
+{\titleItem{AWS Certified Big Data - Specialty} \emph{$|$Amazon Web Services}}{2019 - 2022}
+\resumeProjectHeading
+{\titleItem{AWS Certified Advanced Networking - Specialty} \emph{$|$ Amazon Web Services}}{2019 - 2022}
+\resumeProjectHeading
+{\titleItem{AWS Certified Solutions Architect - Professional} \emph{$|$ Amazon Web Services}}{2018 - 2021}
+\resumeSubHeadingListEnd
+% -------------------------------------
+%----------TECHNICAL SKILLS------------
+% -------------------------------------
+
+\section{Technical skills}
+\subheadingtitlevspace
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    {\item{
+     \titleItem{Languages}{:Python, SQL (Postgres, SQLite, MySQL), JavaScript, TypeScript, Java, Clojure, Go} \\
+     \titleItem{Frameworks}{: Sveltekit, Node.js, ExpressJS, Flask, Poetry ,Tailwind CSS, Pytorch} \\
+     \titleItem{DevOps and tools}{:Git, Docker, AWS ECS, AWS Lambda, Github Actions, Terraform, Terragrunt, VS Code, Copilot} \\
+     \titleItem{Cloud}{:AWS (expert), GCP (intermediate), Azure (beginner)} \\
+    }}
+ \end{itemize}
+\sectionspace
+
+    
+% -------------------------------------
+%----------EXPERIENCE------------------
+% -------------------------------------
+
+
+\section{EXPERIENCE}
+\resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\titleItem{Lead Cloud Architect} $|$ \emph{SomeCompany}}{October 2021 -- Present}
+\resumeItemListStart
+\resumeItem{Manage a team responsible for the secure and efficient use of the AWS platform in a regulated environment.}
+\resumeItem{Configure identity federation between GitHub Actions and AWS for automated deployment.}
+\resumeItem{Develop infrastructure code needed to deploy AWS resources for monitoring and running cloud-native microservices (ECS and Lambda).}
+\resumeItem{Establish and maintain an internal support service, ensuring quick resolution of AWS-related issues for users.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\titleItem{Solutions Specialist} $|$ \emph{SomeCompany}}{January 2021 -- October 2021}
+\resumeItemListStart
+\resumeItem{Provide guidance to management for the company's new cloud practice.}
+\resumeItem{Create internal documentation, such as statements of work, for delivery teams.}
+\resumeItem{Establish new customer relationships on behalf of the cloud practice to generate sales.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\titleItem{AWS Cloud Solutions Architect} $|$ \emph{SomeCompany}}{August 2018 -- January 2021}
+\resumeItemListStart
+\resumeItem{Plan and orchestrate migrations from on-premise data centers to the AWS platform.}
+\resumeItem{Collaborate with enterprise security and governance teams to establish a secure cloud foundation.}
+\resumeItem{Manage teams of cloud engineers during infrastructure deployment projects.}
+\resumeItem{Maintain strong relationships with enterprise customers and promote cloud adoption to business leaders.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\titleItem{Solutions Architect} $|$ \emph{SomeCompany}}{November 2015 -- July 2018}
+\resumeItemListStart
+\resumeItem{Work closely with business partners to formalize requirements and propose IT solutions.}
+\resumeItem{Produce accurate cost estimates for IT projects and lead teams throughout solution delivery.}
+\resumeItem{Evaluate vendor statements of work and negotiate contracts for software solution implementation.}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\titleItem{Software Engineer} $|$ \emph{SomeCompany}}{January 2013 -- November 2015}
+\resumeItemListStart
+\resumeItem{Design and implement a geographic information system to collect, classify, and index over 10 million points of interest from various public sources.}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% -------------------------------------
+%----------EDUCATION-------------------
+% -------------------------------------
+
+\section{EDUCATION}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Some University}{GPA: 3.65}
+{Bachelor's Degree in Computer Engineering}{September 2007 to December 2012}
+
+\resumeSubHeadingListEnd
+\vspace{-8pt}
+
+% -------------------------------------
+%----------PROJECTS--------------------
+% -------------------------------------
+
+\section{PERSONAL PROJECTS}
+
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\titleItem{MyPersonalProject} $|$ \emph{Python, Tensorflow}}{May 2023}
+\resumeItemListStart
+\resumeItem{A description of the project}
+\resumeItem{\href{https://pypi.org/project/yourproject/}{{\textit{https://pypi.org/project/yourproject/}}}}
+\resumeItemListEnd
+\resumeProjectHeading
+{\titleItem{AmbitiousProject} $|$ \emph{Business}}{October 2021}
+\resumeItemListStart
+\resumeItem{I became an entrepreneur and started my own business.}
+\resumeItem{\href{https://www.example.com/}{{\textit{https://www.example.com/}}}}
+\resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
