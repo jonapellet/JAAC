@@ -1,0 +1,29 @@
+# JAAC config file
+[ai]
+OPEN_ROUTER_API_KEY="your-openrouter-api-key"
+MODEL="anthropic/claude-3-opus"
+
+[ai.prompts]
+CV="""
+You are a helpfull AI that will generate a CV summary ...
+"""
+
+LETTER="""
+You are a helpful AI that will generate a cover letter ...
+"""
+
+[templates]
+# Stores the location of the templates used for assets generation.
+# the default values specified here are the one where jaac init will create the example templates for you.
+
+[templates.cv]
+LOCATION="./cv.tex.template" 
+
+[templates.letter]
+LOCATION="./letter.tex.template"
+
+[profile]
+# Stores the user profile location. A user profile is a file that contains a txt version of a c.v. for that user
+LOCATION="./profile.txt"
+
+
