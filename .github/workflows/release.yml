@@ -1,0 +1,15 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    tags:
+      - "rc*"
+
+
+
+jobs:
+    deploy:
+        uses: ./.github/workflows/pypi.yml
+        with:
+            pythonVersion: "3.11"
+            pypiToken: ${{ secrets.TEST_PYPI }}

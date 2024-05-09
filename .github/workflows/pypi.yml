@@ -6,9 +6,9 @@ on:
       pythonVersion:
         required: true
         type: string
-    secrets:
       pypiToken:
         required: true
+        type: string
 
 jobs:
   publish:
@@ -46,4 +46,4 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           user: __token__
-          password: ${{ inputs.pypiToken }}
+          password: ${{ secrets.pypiToken }}
