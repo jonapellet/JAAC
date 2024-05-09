@@ -1,11 +1,9 @@
-name: CI/CD Pipeline
+name: deploy to test PyPI
 
 on:
   push:
     tags:
       - "rc*"
-
-
 
 jobs:
     deploy:
