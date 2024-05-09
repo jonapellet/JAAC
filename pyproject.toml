@@ -3,6 +3,7 @@ name = "jaac"
 version = "0.1.0"
 description = "Job Application Assets Creator"
 authors = ["Jonathan Pelletier <jonathan.pelletier-aafz@thecloudco.ca>"]
+repository = "https://github.com/jonapellet/JAAC"
 license = "MIT"
 readme = "README.md"
 
