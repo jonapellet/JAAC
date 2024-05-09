@@ -1,5 +1,5 @@
 <p align="center" text-align="center">
-<img src="./assets/jaac.jpg" alt="JAAC" width="500px">
+<img src="https://github.com/jonapellet/JAAC/blob/a3cc654b64878b3a1cf43b231773ae8e439011c5/assets/jaac.jpg" alt="JAAC" width="500px">
 </p>
 <blockquote>
     <p> "In this twisted wonderland of ours, it takes every ounce of your strength, every bit of your resolve, 
