@@ -10,7 +10,7 @@ from .pdf import to_pdf
 def cli():
     pass
 
-@cli.command()
+@cli.command(help="Initialize the jaac configuration.")
 def init():
 
     # get the current directory based on the current filename
