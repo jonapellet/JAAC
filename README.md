@@ -1,11 +1,15 @@
 <p align="center" text-align="center">
 <img src="./assets/jaac.jpg" alt="JAAC" width="500px">
 </p>
+<blockquote>
+    <p> "In this twisted wonderland of ours, it takes every ounce of your strength, every bit of your resolve, 
+    just to maintain the position and stand still."</p>
+</blockquote>
 
 # JAAC
 The Job Application Assets Creator
 
-JAAC is a CLI tools that uses LLM and a templating engine to create custom job application assets such as CV and cover letter.
+JAAC is a CLI tools that uses LLM and a templating engine to create custom job application assets such as CVs and cover letters.
 
 For JAAC to work for you, you will need to provide it with:
 
