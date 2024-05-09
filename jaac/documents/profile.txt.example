@@ -1,0 +1,79 @@
+Name: Your Name
+
+    Location: city, State, Country
+    Phone: +1 (xxx) xxx
+    Email: yourname@example.com
+    Website: https://example.com
+    GitHub: https://github.com/yourhandle
+
+Certifications
+
+    AWS Certified Security - Specialty (2019 - 2022)
+    AWS Certified Big Data - Specialty (2019 - 2022)
+    AWS Certified Advanced Networking - Specialty (2019 - 2022)
+    AWS Certified Solutions Architect - Professional (2018 - 2021)
+
+Technical Skills
+
+    Languages: Python, SQL (Postgres, SQLite, MySQL), JavaScript, TypeScript, Java, Clojure
+    Frameworks: Sveltekit, Node.js, ExpressJS, Flask, Poetry, Tailwind CSS, Pytorch
+    DevOps & Tools: Git, Docker, AWS ECS, AWS Lambda, Github Actions, Terraform, Terragrunt, VS Code, Copilot
+    Cloud: AWS (Expert), GCP (Intermediate), Azure (Beginner)
+
+Experience
+Some Company
+
+    Position: Principal Cloud Consultant
+    Period: October 2021 - Present
+    Responsibilities:
+        Managed a team ensuring secure and efficient usage of AWS platform in a regulated environment.
+        Set up identity federation between GitHub Actions and AWS for automated deployment.
+        Developed infrastructure code for deploying AWS resources for monitoring and executing cloud-native microservices (ECS and Lambda).
+        Established and maintained an internal helpdesk service, ensuring prompt resolution of AWS-related issues.
+
+The Best Company
+
+    Position: Solution Specialist
+    Period: January 2021 - October 2021
+    Responsibilities:
+        Advised senior management for the new corporate cloud practice.
+        Created internal documentation for delivery teams.
+        Established new client relations for the cloud practice to generate sales.
+
+The second best Company
+
+    Position: AWS Cloud Solutions Architect
+    Period: August 2018 - January 2021
+    Responsibilities:
+        Planned and orchestrated migrations from on-premise data centers to AWS platform.
+        Collaborated with corporate security and governance teams to establish secure baseline cloud infrastructure.
+        Led cloud engineer teams during infrastructure deployment projects.
+        Maintained strong relationships with corporate clients and promoted cloud adoption among business leaders.
+
+A nice company
+
+    Position: Solutions Architect
+    Period: November 2015 - July 2018
+    Responsibilities:
+        Worked closely with business partners to formalize requirements and propose IT solutions.
+        Produced accurate cost estimates for IT projects and led teams through solution delivery.
+        Assessed supplier specifications and negotiated software solution contracts.
+
+My first Company
+
+    Position: Software Engineer
+    Period: January 2013 - November 2015
+    Responsibilities:
+        Designed and implemented a geographic information system to collect, classify, and index over 10 million points of interest from various public sources.
+
+Education
+
+    Some University
+        Degree: Bachelor of Engineering in Computer Engineering
+        Period: September 2007 - December 2012
+        GPA: 3.65
+
+Personal Projects
+
+    somepetproject (Python, Tensorflow): A command-line tool to prepare image datasets for refining the training of generative AI models such as StableDiffusion. (https://pypi.org/project/yourproject/)
+    myowncompany (Business): Founded a company offering services to SMEs wanting to utilize the AWS cloud platform. (https://www.thecloudco.ca/)
