@@ -5,9 +5,12 @@ on:
     tags:
       - "rc*"
 
+env:
+    TEST_PYPI: ${{ secrets.TEST_PYPI }}
+
 jobs:
     deploy:
         uses: ./.github/workflows/pypi.yml
         with:
             pythonVersion: "3.11"
-            pypiToken: ${{ secrets.TEST_PYPI }}
+            pypiToken:  env.TEST_PYPI
