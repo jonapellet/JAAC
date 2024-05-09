@@ -332,6 +332,17 @@ platformdirs = ">=2.2.0"
 pyyaml = ">=5.1"
 
 [[package]]
+name = "mkdocs-gitbook"
+version = "0.0.1"
+description = "Default theme for GitBook for Mkdocs"
+optional = false
+python-versions = "*"
+files = [
+    {file = "mkdocs-gitbook-0.0.1.tar.gz", hash = "sha256:c094f9d77e47d54379a0d3816097b56511e760fedb23dcf89bc925f6ac4e75f3"},
+    {file = "mkdocs_gitbook-0.0.1-py2.py3-none-any.whl", hash = "sha256:e929c3caf655076eaa030128cfd104687b9ec14644d54f4a175d43e13ac60ef8"},
+]
+
+[[package]]
 name = "openai"
 version = "1.26.0"
 description = "The official Python library for the openai API"
@@ -721,4 +732,4 @@ watchmedo = ["PyYAML (>=3.10)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "683700f27a3a6533cab4f45d7c796b4cd3b0612075b097041e2daef583866753"
+content-hash = "99d4128293255f88751fed013e950663261928fdd914127276fcb74603761aea"

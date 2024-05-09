@@ -11,13 +11,6 @@ The Job Application Assets Creator
 
 JAAC is a CLI tools that uses LLM and a templating engine to create custom job application assets such as CVs and cover letters.
 
-For JAAC to work for you, you will need to provide it with:
-
-1. an openrouter.ai API key.
-2. a user context, which is all the information that one would normally find in a C.V. 
-
-The 
-
 ## Installation
 ```bash
 # jaac is available on pypi
@@ -32,7 +25,22 @@ jaac init
 
 **IMPORTANT**: This will create a few files that you will need to modify and rename *before* using.
 
-For more information see the documentation
+## Configuration
+jaac init creates the following files:
+
+1. jaac.config.toml.example
+2. cv.tex.template.example
+3. letter.tex.template.example
+4. profile.txt.example
+
+The general procedure is to modify these files and remove the .example extension. 
+Once proper values are set, you can use any jaac commands. 
+
+### jaac.config.toml.example
+This file contains the app config such as an API key to interact with LLM, 
+the system templates used for the generation of cv, cover letters and direct messages, the path to 
+the cv and letter templates to use etc.
+
 
 ## Usage
 ``` bash
