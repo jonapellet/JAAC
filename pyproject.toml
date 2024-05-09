@@ -17,6 +17,7 @@ jaac = "jaac:cli"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"
+mkdocs = "^1.6.0"
 
 [build-system]
 requires = ["poetry-core"]

@@ -5,7 +5,6 @@
 # JAAC
 The Job Application Assets Creator
 
-## Summary
 JAAC is a CLI tools that uses LLM and a templating engine to create custom job application assets such as CV and cover letter.
 
 For JAAC to work for you, you will need to provide it with:
@@ -17,21 +16,19 @@ The
 
 ## Installation
 ```bash
-# install jaac from pypi.
+# jaac is available on pypi
 pip install jaac
 ```
 
-After installation and before using for the first time, initialize JAAC with the following:
+Before using for the first time, initialize JAAC:
 
 ```bash
-# fill in the values of the example config file afterwards.
 jaac init
 ```
 
-This will generate a jaac config file (jaac.conf.example). Provide the required values and rename it jaac.conf and
-you'll be good to go.
+**IMPORTANT**: This will create a few files that you will need to modify and rename *before* using.
 
-For more information, see the online doc.
+For more information see the documentation
 
 ## Usage
 ``` bash
