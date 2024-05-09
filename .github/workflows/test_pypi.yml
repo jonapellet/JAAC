@@ -50,3 +50,4 @@ jobs:
         with:
           user: __token__
           password: ${{ env.TOKEN }}
+          repository-url: https://test.pypi.org/legacy/
