@@ -1,17 +1,17 @@
-name: deploys the software to pypi
+name: deploys on test pypi
+
 
 on:
-  workflow_call:
-    inputs:
-      pythonVersion:
-        required: true
-        type: string
-      pypiToken:
-        required: true
-        type: string
-
+    push:
+      tags:
+        - "rc*"
+  
 permissions:
     id-token: write
+
+env:
+    PYTHON_VERSION: "3.11"
+    TOKEN: ${{ secrets.TEST_PYPI }}
 
 jobs:
   publish:
@@ -23,7 +23,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: ${{ inputs.pythonVersion }}
+          python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Install Poetry
         run: |
@@ -34,9 +34,9 @@ jobs:
         uses: actions/cache@v2
         with:
           path: ~/.cache/pypoetry/virtualenvs
-          key: ${{ runner.os }}-python-${{ inputs.pythonVersion }}-poetry-${{ hashFiles('**/poetry.lock') }}
+          key: ${{ runner.os }}-python-${{ env.PYTHON_VERSION }}-poetry-${{ hashFiles('**/poetry.lock') }}
           restore-keys: |
-            ${{ runner.os }}-python-${{ inputs.pythonVersion }}-poetry-
+            ${{ runner.os }}-python-${{ env.PYTHON_VERSION }}}-poetry-
 
       - name: Install dependencies
         run: |
@@ -49,4 +49,4 @@ jobs:
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           user: __token__
-          password: ${{ secrets.pypiToken }}
+          password: ${{ env.TOKEN }}
