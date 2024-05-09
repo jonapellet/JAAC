@@ -1,11 +1,8 @@
 <p align="center" text-align="center">
-<img src="./assets/jaac.jpg" alt="JAAC" width="300px">
+<img src="./assets/jaac.jpg" alt="JAAC" width="500px">
 </p>
 
-<div align="center">
-  <h1>JAAC</h1>
-</div>
-
+# JAAC
 The Job Application Assets Creator
 
 ## Summary
