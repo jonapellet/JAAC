@@ -3,7 +3,7 @@
 </p>
 <blockquote>
     <p> "In this twisted wonderland of ours, it takes every ounce of your strength, every bit of your resolve, 
-    just to maintain the position and stand still."</p>
+    just to maintain the position and stand still." -- The Red Queen </p>
 </blockquote>
 
 # JAAC
