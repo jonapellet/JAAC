@@ -10,7 +10,7 @@
 The Job Application Assets Creator
 
 jaac is a CLI tool that uses a LLM and a templating engine to create custom job application assets such as CVs and cover letters.
-See the [example folder]()
+See the [example folder](./examples/) for generate samples.
 
 ## prerequisites
 jaac uses pdflatex to produce pdf files from rendered templates. You will need to have pdflatex installed on your system.
