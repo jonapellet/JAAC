@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "jaac"
-version = "0.2.2"
+version = "0.2.3"
 description = "Job Application Assets Creator"
 authors = ["Jonathan Pelletier <jonathan.pelletier-aafz@thecloudco.ca>"]
 repository = "https://github.com/jonapellet/JAAC"

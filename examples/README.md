@@ -11,7 +11,7 @@ jaac init
 # generate a cv -- notice how the summary ties back to the requirement of the job and mentions the company by name 👌
 jaac cv examples/example-offer.txt examples/example-cv.pdf
 
-# generate a cover letter -- The cover letter is tailored to the job and company and ties back to the requirements of the job
+# generate a cover letter -- The letter is tailored to the job and ties back to the stated requirements 
 jaac letter examples/example-offer.txt examples/example-letter.pdf
 
 # why not send a dm to the hiring manager on linkedin?
