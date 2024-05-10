@@ -93,4 +93,4 @@ probably copy and paste from the job posting.
 
 ## About
 I am Jonathan Pelletier and I created jaac to help me with my job applications. I hope it helps you too and that it
-some of the drudgery out of the job application process.
+takes some of the drudgery out of the job application process.
