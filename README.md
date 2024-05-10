@@ -1,5 +1,5 @@
 <p align="center" text-align="center">
-<img src="https://github.com/jonapellet/JAAC/blob/a3cc654b64878b3a1cf43b231773ae8e439011c5/assets/jaac.jpg" alt="JAAC" width="500px">
+<img src="https://raw.githubusercontent.com/jonapellet/JAAC/main/assets/jaac.jpg" alt="JAAC" width="500px">
 </p>
 <blockquote>
     <p> "In this twisted wonderland of ours, it takes every ounce of your strength, every bit of your resolve, 
@@ -9,7 +9,8 @@
 # JAAC
 The Job Application Assets Creator
 
-JAAC is a CLI tools that uses a LLM and a templating engine to create custom job application assets such as CVs and cover letters.
+jaac is a CLI tool that uses a LLM and a templating engine to create custom job application assets such as CVs and cover letters.
+See the [example folder]()
 
 ## prerequisites
 jaac uses pdflatex to produce pdf files from rendered templates. You will need to have pdflatex installed on your system.
