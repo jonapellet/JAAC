@@ -1,0 +1,36 @@
+Role Description:
+
+As a Lead Software Developer specializing in Go, this individual is responsible for developing and maintaining 
+the server-side logic of the SaaS platform. Their work involves updating existing software, creating new APIs, 
+and enhancing the existing components to integrate seamlessly with exchanges and other services. The Lead Software 
+Developer must write efficient, scalable, and maintainable code, ensuring the backend systems support the platform's 
+functionality and performance requirements.
+
+
+Profile and Experience: 
+
+Proficient in Go programming language, with experience in building and scaling microservices. Familiar with the 
+existing technology stack and the development of APIs. Understanding of time-series databases (Prometheus) and experience 
+with message brokers (e.g., Kafka, RabbitMQ) is a plus.
+
+
+For such a role, Pow.re will expect senior candidates to have at least 8 years of experience executing in the role of a 
+Software Developer and have succeeded in creating a SaaS solution in prior roles. Certifications in this field are desirable.
+
+
+Key Responsibilities:
+
+Update and extend the existing software, develop new APIs, and work on the scheduler component and other backend services.
+
+
+    Lead the design and architecture of complex software systems, ensuring they are scalable, maintainable, and meet business requirements.
+    Design and implement RESTful APIs to facilitate communication between the frontend, backend, and external services.
+    Provide technical guidance and architectural decisions that influence the strategic direction of projects.
+    Mentor a technical team, fostering a collaborative environment, and ensuring high-quality code outputs.
+    Collaborate with the Product Manager, DevOps and QA Engineers to ensure seamless integration and optimal performance of the SaaS platform.
+    Communicate effectively with both technical and non-technical stakeholders to align software solutions with business needs.
+    Participate in code reviews, contributing to the maintenance of high code quality and consistency.
+    Debug and resolve backend issues, optimizing the performance of the SaaS platform.
+    Create clear and usable documentation.
+    Stay updated with the latest trends and technologies in software development and lead the adoption of new technologies that can benefit the Pow.re product line.
+
