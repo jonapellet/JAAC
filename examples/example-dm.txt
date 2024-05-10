@@ -1,0 +1,16 @@
+Subject: Lead Software Developer Role at Pow.re - Jonathan Pelletier
+
+Hi [Recruiter's Name],
+
+I came across the Lead Software Developer role at Pow.re and was immediately drawn to it. With my extensive experience in Go, 
+building scalable microservices, and working with APIs, I believe I would be a great fit for this position.
+
+I have a strong track record of leading technical teams, making architectural decisions, and collaborating with various 
+stakeholders to deliver high-quality software solutions. My expertise in AWS, along with my certifications, 
+would also be valuable in contributing to the success of the Pow.re SaaS platform.
+
+I would love to discuss this opportunity further and learn more about how I can contribute to Pow.re's growth. 
+Please let me know if you'd like to schedule a call to discuss my qualifications in more detail.
+
+Best regards,
+Jonathan Pelletier
